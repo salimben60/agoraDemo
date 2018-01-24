@@ -19,7 +19,7 @@
             //maxBitRate        = Number(Cookies.get("maxBitRate") || 750),
             channel = Cookies.get("roomName"),
             remoteStreamList = [],
-            client = AgoraRTC.createClient({mode: 'interop'}),
+            client = AgoraRTC.createClient({mode: 'h264_interop'}),
             disableAudio = false,
             disableVideo = false,
             hideLocalStream = false,

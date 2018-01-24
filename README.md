@@ -5,7 +5,7 @@ Sample communications demo app built using Agora WebRTC SDK v2.1.0
 
 Simply click the link above, and put in your AppID
 
-# Agora WebRTC SDK v2.0.0
+# Agora WebRTC SDK v2.1.0
 
 Agora offers 2 version of the Web SDK, WebRTC and WebAgent. Web apps built with the WebRTC SDK will require a WebRTC capable browser. For more details, please refer to the [SDK Documentation](https://docs.agora.io/en/2.0.2/product/Video/Integration%20Guide/webrtc_guide_video?platform=Web).
 
