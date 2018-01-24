@@ -1,0 +1,21 @@
+{
+  "name": "Agora WebRTC SDK v2.1.0 Demo",
+  "description": "One-click to deploy sample communications demo app built from Agora WebRTC SDK v2.1.0",
+  "keywords": [
+    "Agora",
+    "Agora.io",
+    "video",
+    "voice",
+    "communications",
+    "WebRTC",
+    "web"
+  ],
+  "website": "http://www.agora.io",
+  "repository": "https://github.com/AgoraIO/Agora-WebRTC-Communications-Demo",
+  "env": {
+    "APP_ID": {
+      "description": "Agora.io App ID: Login to the Agora.io Developer Dashboard (http://dashboard.agora.io), and navigate to the \"Projects\" tab to get this value",
+      "required": true
+    }
+  }
+}
