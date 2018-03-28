@@ -3,6 +3,9 @@ var express = require('express');
 
 var PORT = process.env.PORT || 8080;
 
+
+process.env.APP_ID = '0792d722710e4a189212579c095677fb';
+
 // Verify that the API Key and API Secret are defined
 if (!(process.env.APP_ID)) {
     throw new Error('You must define an APP_ID');
@@ -10,6 +13,9 @@ if (!(process.env.APP_ID)) {
 }
 // Get the AppID
 var APP_ID = process.env.APP_ID;
+
+
+
 
 var app = express();
 app.disable('x-powered-by');
