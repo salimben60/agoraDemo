@@ -79,7 +79,7 @@
         subscribeMouseClickEvents();
         subscribeMouseHoverEvents();
         subscribeWindowResizeEvent();
-        $("#room-name-meeting").html(channel);
+        $("#room-name-meeting").html("You are in Room: " + (channel));
         attachExitFullscreenEvent();
 
         // Initialize and display stream end
