@@ -40,8 +40,8 @@
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="180" column="64" lean-forward="false" selection-start-line="180" selection-start-column="64" selection-end-line="180" selection-end-column="64" />
+            <state relative-caret-position="158">
+              <caret line="151" column="48" lean-forward="false" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -110,6 +110,8 @@
       <find>App</find>
       <find>env</find>
       <find>APP_ID</find>
+      <find>send</find>
+      <find>qs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,12 +220,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522211754723</updated>
-      <workItem from="1522211756000" duration="2583000" />
+      <workItem from="1522211756000" duration="2788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2583000" />
+    <option name="totallyTimeSpent" value="2788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -332,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="180" column="64" lean-forward="false" selection-start-line="180" selection-start-column="64" selection-end-line="180" selection-end-column="64" />
+        <state relative-caret-position="158">
+          <caret line="151" column="48" lean-forward="false" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="48" />
           <folding />
         </state>
       </provider>
