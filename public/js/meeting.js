@@ -47,6 +47,7 @@
                     getDevices();
 
                     client.join(null, channel, undefined, function(uid) {
+                        $.alert("Welcome to " +channel + "'s Channel");
                         console.log("User " + uid + " join channel successfully");
                         console.log("Timestamp: " + Date.now());
                         localStream = initLocalStream(uid);
@@ -470,7 +471,7 @@
             }
         }
 
-        function toggleFullscreenButton(show, parent) {
+     /*   function toggleFullscreenButton(show, parent) {
             if (parent) {
                 $(parent + " .fullscreen-button").parent().toggle(show);
                 $(parent + " .fullscreen-button, " + parent + " .fullscreen-button>img").toggle(show);
@@ -479,7 +480,7 @@
                 $("#video-container .fullscreen-button, #video-container .fullscreen-button>img").toggle(show);
             }
         }
-
+*/
         function toggleExpensionButton(show, parent) {
             if (parent) {
                 $(parent + " .expension-button").parent().toggle(show);
@@ -487,13 +488,12 @@
             } else {
                 // var reference = $('.local-partner-video')
                 //     top = '0px',
-                //     rigjt = '0px';
+                //     right = '0px';
 
                 // if(reference[0]){
                 //     var top = reference.css('top');
                 //     var right = reference.css('right');
                 // }
-
                 $("#video-container .expension-button")
                     .parent()
                     // .css({
@@ -882,8 +882,14 @@
             }, function(e) {
                 if (disableAudio) {
                     $(e.target).attr("src", "images/btn_mute_touch.png");
+/*
+                    $.alert("Mic is disabled");
+*/
                 } else {
                     $(e.target).attr("src", "images/btn_mute@2x.png");
+/*
+                    $.alert("Mic is enabled");
+*/
                 }
             });
 
@@ -960,11 +966,11 @@
                 }, 5000);
             });
 
-            // $(".toolbar img").off("hover").hover(function(e) {
-            //     $(this).filter(':not(:animated)').animate({ width: "70px", height: "70px" });
-            // }, function() {
-            //     $(this).animate({ width: "50px", height: "50px" });
-            // });
+             $(".toolbar img").off("hover").hover(function(e) {
+                 $(this).filter(':not(:animated)').animate({ width: "70px", height: "70px" });
+             }, function() {
+                 $(this).animate({ width: "50px", height: "50px" });
+             });
         }
 
         function subscribeMouseClickEvents() {
@@ -984,6 +990,7 @@
                         target.attr("src", "images/btn_mute_touch.png");
                     }
                     localStream.disableAudio();
+                    $.alert("Mic is Disabled");
                 } else {
                     if (isMixed) {
                         target.removeClass(mixedClassName);
@@ -991,6 +998,7 @@
                         target.attr("src", "images/btn_mute@2x.png");
                     }
                     localStream.enableAudio();
+                    $.alert("Mic is Enabled");
                 }
 
                 // if (disableAudio) {
