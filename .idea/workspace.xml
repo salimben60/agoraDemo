@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cdfdb7c3-d766-456e-8cb7-aee9dc2a3ad4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/public/js/meeting.js" afterPath="$PROJECT_DIR$/public/js/meeting.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,12 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -67,21 +69,21 @@
       <file leaf-file-name="meeting.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/meeting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="427">
+              <caret line="62" column="57" lean-forward="false" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meeting.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="meeting.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/meeting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8600">
-              <caret line="1062" column="57" lean-forward="false" selection-start-line="1062" selection-start-column="57" selection-end-line="1062" selection-end-column="57" />
+            <state relative-caret-position="267">
+              <caret line="483" column="38" lean-forward="false" selection-start-line="483" selection-start-column="17" selection-end-line="483" selection-end-column="38" />
               <folding>
-                <marker date="1522651899802" expanded="true" signature="18987:19032" ph="..." />
-                <marker date="1522651899802" expanded="true" signature="26716:26730" ph="..." />
+                <marker date="1522653228743" expanded="true" signature="18987:19032" ph="..." />
+                <marker date="1522653228743" expanded="true" signature="26698:26712" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,11 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>App</find>
-      <find>env</find>
-      <find>APP_ID</find>
-      <find>send</find>
-      <find>qs</find>
       <find>cop</find>
       <find>ag-header-lead</find>
       <find>mute</find>
@@ -118,8 +115,14 @@
       <find>tool</find>
       <find>If you are the first person to specify this name, the room will be created and you will be placed in it. If it has already been created you will join the conference in progress.</find>
       <find>join</find>
-      <find>agora</find>
+      <find>layout</find>
+      <find>expension-button</find>
       <find>switch</find>
+      <find>dimen</find>
+      <find>end-ca</find>
+      <find>expens</find>
+      <find>agora</find>
+      <find>dispa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,10 +135,11 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/public/js/meeting.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/meeting.html" />
         <option value="$PROJECT_DIR$/public/css/custom.css" />
+        <option value="$PROJECT_DIR$/public/meeting.html" />
+        <option value="$PROJECT_DIR$/public/js/meeting.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -300,10 +304,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21437000" />
+    <option name="totallyTimeSpent" value="22896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -314,7 +319,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4993954" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2031439" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -368,15 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env" />
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -508,8 +504,8 @@
         <state relative-caret-position="8600">
           <caret line="1062" column="57" lean-forward="false" selection-start-line="1062" selection-start-column="57" selection-end-line="1062" selection-end-column="57" />
           <folding>
-            <marker date="1522651899802" expanded="true" signature="18987:19032" ph="..." />
-            <marker date="1522651899802" expanded="true" signature="26716:26730" ph="..." />
+            <marker date="1522653228743" expanded="true" signature="18987:19032" ph="..." />
+            <marker date="1522653228743" expanded="true" signature="26698:26712" ph="..." />
           </folding>
         </state>
       </provider>
@@ -544,6 +540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23865">
           <caret line="53" column="18318" lean-forward="false" selection-start-line="53" selection-start-column="18318" selection-end-line="53" selection-end-column="18318" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,6 +591,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -637,8 +635,8 @@
         <state relative-caret-position="8278">
           <caret line="1062" column="57" lean-forward="false" selection-start-line="1062" selection-start-column="57" selection-end-line="1062" selection-end-column="57" />
           <folding>
-            <marker date="1522651899802" expanded="true" signature="18987:19032" ph="..." />
-            <marker date="1522651899802" expanded="true" signature="26716:26730" ph="..." />
+            <marker date="1522653228743" expanded="true" signature="18987:19032" ph="..." />
+            <marker date="1522653228743" expanded="true" signature="26698:26712" ph="..." />
           </folding>
         </state>
       </provider>
@@ -674,6 +672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23865">
           <caret line="53" column="18318" lean-forward="false" selection-start-line="53" selection-start-column="18318" selection-end-line="53" selection-end-column="18318" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -709,32 +708,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/meeting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8600">
-          <caret line="1062" column="57" lean-forward="false" selection-start-line="1062" selection-start-column="57" selection-end-line="1062" selection-end-column="57" />
-          <folding>
-            <marker date="1522651899802" expanded="true" signature="18987:19032" ph="..." />
-            <marker date="1522651899802" expanded="true" signature="26716:26730" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/meeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -764,6 +734,52 @@
           <folding>
             <marker date="1522651899797" expanded="true" signature="1397:1400" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/AgoraRTCSDK-2.1.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vendor-bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="13740" column="8" lean-forward="false" selection-start-line="13740" selection-start-column="8" selection-end-line="13740" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/meeting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="62" column="57" lean-forward="false" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/meeting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="483" column="38" lean-forward="false" selection-start-line="483" selection-start-column="17" selection-end-line="483" selection-end-column="38" />
+          <folding>
+            <marker date="1522653228743" expanded="true" signature="18987:19032" ph="..." />
+            <marker date="1522653228743" expanded="true" signature="26698:26712" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
