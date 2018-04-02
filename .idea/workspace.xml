@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="cdfdb7c3-d766-456e-8cb7-aee9dc2a3ad4" name="Default" comment="" />
+    <list default="true" id="cdfdb7c3-d766-456e-8cb7-aee9dc2a3ad4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/meetingOLD.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/js/meeting.js" afterPath="$PROJECT_DIR$/public/js/meeting.js" />
+      <change beforePath="$PROJECT_DIR$/public/meeting.html" afterPath="$PROJECT_DIR$/public/meeting.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -56,6 +64,13 @@
               <caret line="47" column="89" lean-forward="false" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
               <folding>
                 <element signature="e#2891#2897#0" expanded="true" />
+            <state relative-caret-position="196">
+              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#p#1;n#main#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2267#2273#0" expanded="true" />
+                <element signature="e#2273#2279#0" expanded="true" />
+                <element signature="e#2681#2687#0" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -68,6 +83,39 @@
             <state relative-caret-position="427">
               <caret line="62" column="57" lean-forward="false" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
               <folding />
+            <state relative-caret-position="149">
+              <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4834#4840#0" expanded="true" />
+                <element signature="e#5137#5145#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deltethisfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/deltethisfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="157" column="44" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding>
+                <marker date="1522599052838" expanded="true" signature="6827:6853" ph="..." />
+                <marker date="1522599052838" expanded="true" signature="13012:13175" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meetingOLD.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/meetingOLD.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1684">
+              <caret line="1099" column="30" lean-forward="false" selection-start-line="1099" selection-start-column="30" selection-end-line="1099" selection-end-column="30" />
+              <folding>
+                <marker date="1522598888360" expanded="true" signature="19286:19331" ph="..." />
+                <marker date="1522598888360" expanded="true" signature="26990:27004" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,6 +128,11 @@
               <folding>
                 <marker date="1522654779747" expanded="true" signature="3017:3120" ph="{...}" />
                 <marker date="1522654779747" expanded="true" signature="43310:43323" ph="{...}" />
+            <state relative-caret-position="8278">
+              <caret line="1062" column="57" lean-forward="true" selection-start-line="1062" selection-start-column="57" selection-end-line="1062" selection-end-column="57" />
+              <folding>
+                <marker date="1522599051338" expanded="true" signature="18993:19038" ph="..." />
+                <marker date="1522599051338" expanded="true" signature="26752:26766" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,9 +152,14 @@
       <find>white</find>
       <find>wel</find>
       <find>main-description-text</find>
+      <find>gree˝</find>
+      <find>white</find>
+      <find>wel</find>
+      <find>yell</find>
       <find>no remo</find>
       <find>channel</find>
       <find>local-partner-video</find>
+      <find>expension-button</find>
       <find>fullscreen-button</find>
       <find>btn</find>
       <find>green</find>
@@ -119,6 +177,27 @@
       <find>expens</find>
       <find>agora</find>
       <find>dispa</find>
+      <find>video optio</find>
+      <find>btn_voice@2x</find>
+      <find>you are in</find>
+      <find>user</find>
+      <find>client.on('mute-audio', function(evt) {</find>
+      <find>evt</find>
+      <find>devc</find>
+      <find>get</find>
+      <find>client.o</find>
+      <find>If you are the first person to specify this name, the room will be created and you will be placed in it. If it has already been created you will join the conference in progress.</find>
+      <find>main-description-text</find>
+      <find>you are in ro</find>
+      <find>btn</find>
+      <find>peer</find>
+      <find>room-name-</find>
+      <find>room-name-nu</find>
+      <find>room-name-meeting</find>
+      <find>you are</find>
+      <find>agora</find>
+      <find>mute</find>
+      <find>disable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,11 +210,15 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/css/custom.css" />
         <option value="$PROJECT_DIR$/public/meeting.html" />
         <option value="$PROJECT_DIR$/public/js/meeting.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/public/js/deltethisfile.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/meeting.html" />
+        <option value="$PROJECT_DIR$/public/js/meeting.js" />
+        <option value="$PROJECT_DIR$/public/js/meetingOLD.js" />
       </list>
     </option>
   </component>
@@ -295,12 +378,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522211754723</updated>
-      <workItem from="1522211756000" duration="15985000" />
+      <workItem from="1522211756000" duration="24032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="23029000" />
+    <option name="totallyTimeSpent" value="24032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -315,6 +399,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2031439" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -613,6 +698,18 @@
           <folding>
             <marker date="1522654779747" expanded="true" signature="3017:3120" ph="{...}" />
             <marker date="1522654779747" expanded="true" signature="43310:43323" ph="{...}" />
+    <entry file="file://$PROJECT_DIR$/public/css/images/overlay.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/deltethisfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="157" column="44" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <marker date="1522599052838" expanded="true" signature="6827:6853" ph="..." />
+            <marker date="1522599052838" expanded="true" signature="13012:13175" ph="..." />
           </folding>
         </state>
       </provider>
@@ -695,6 +792,13 @@
           <caret line="47" column="89" lean-forward="false" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
           <folding>
             <element signature="e#2891#2897#0" expanded="true" />
+        <state relative-caret-position="196">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#main#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2267#2273#0" expanded="true" />
+            <element signature="e#2273#2279#0" expanded="true" />
+            <element signature="e#2681#2687#0" expanded="true" />
             <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -740,6 +844,34 @@
           <folding>
             <marker date="1522654779747" expanded="true" signature="3017:3120" ph="{...}" />
             <marker date="1522654779747" expanded="true" signature="43310:43323" ph="{...}" />
+        <state relative-caret-position="149">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4834#4840#0" expanded="true" />
+            <element signature="e#5137#5145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/meeting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8278">
+          <caret line="1062" column="57" lean-forward="true" selection-start-line="1062" selection-start-column="57" selection-end-line="1062" selection-end-column="57" />
+          <folding>
+            <marker date="1522599051338" expanded="true" signature="18993:19038" ph="..." />
+            <marker date="1522599051338" expanded="true" signature="26752:26766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/meetingOLD.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1684">
+          <caret line="1099" column="30" lean-forward="false" selection-start-line="1099" selection-start-column="30" selection-end-line="1099" selection-end-column="30" />
+          <folding>
+            <marker date="1522598888360" expanded="true" signature="19286:19331" ph="..." />
+            <marker date="1522598888360" expanded="true" signature="26990:27004" ph="..." />
           </folding>
         </state>
       </provider>
