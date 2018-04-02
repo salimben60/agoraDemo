@@ -44,24 +44,24 @@
                 <div id="video-container" class="video-container">
                     <div id="video-container-multiple"></div>
                     <div class="toolbar">
-                        <ul>
-                            <li>
-                                <a class="switch-audio-button" href="#"><img src="images/btn_voice@2x.png" alt="Voice"></a>
-                            </li>
-                            <li>
-                                <a class="mute-button" href="#"><img src="images/btn_mute@2x.png" alt="Mute"></a>
-                            </li>
-                            <li>
-                                <a class="fullscreen-button"  href="#"><img  src="images/btn_maximize@2x.png" alt="Fullscreen"></a>
-                            </li>
-                            <li>
-                                <a class="expension-button" href="#"><img src="images/btn_expansion.png" alt="Switch"></a>
-                            </li>
-                            <li>
-                                <a class="end-call-button" href="#"><img src="images/btn_endcall@2x.png" alt="End"></a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>
+                            <a class="switch-audio-button" href="#"><img src="images/btn_voice@2x.png" alt="Voice"></a>
+                        </li>
+                        <li>
+                            <a class="mute-button" href="#"><img src="images/btn_mute@2x.png" alt="Mute"></a>
+                        </li>
+                        <li>
+                            <a class="fullscreen-button"  href="#"><img  src="images/btn_maximize@2x.png" alt="Fullscreen"></a>
+                        </li>
+                        <li>
+                            <a class="expension-button" href="#"><img src="images/btn_expansion.png" alt="Switch"></a>
+                        </li>
+                        <li>
+                            <a class="end-call-button" href="#"><img src="images/btn_endcall@2x.png" alt="End"></a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
             <div class="video-side-bar">
@@ -76,6 +76,10 @@
              -->
         <!-- Footer -->
         <footer id="footer">
+<!--
+            <div class="room-name-title" id="room-name-number"></div>
+-->
+
             <ul class="copyright">
                 <li><a>Agora.io</a></li>
                 <li>Copyright &copy; Agora.io</li>
@@ -98,7 +102,7 @@
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="js/vendor-bundle.js?v=2.1.0"></script>
     <script src="js/AgoraRTCSDK-2.1.0.js"></script>
-    <script src="js/meeting.js?v=2.1.0"></script>
+    <script src="js/meetingOLD.js?v=2.1.0"></script>
     <script>
         if ('addEventListener' in window) {
             window.addEventListener('load', function() {

@@ -43,7 +43,6 @@
 
                 client.init(appId, function (obj) {
                     console.log("AgoraRTC client initialized");
-
                     getDevices();
 
                     client.join(null, channel, undefined, function(uid) {
@@ -59,8 +58,15 @@
 
         function getDevices() {
             AgoraRTC.getDevices(function (devices) {
+                var devCount = devices.length;
+                var id = devices[0].deviceId;
+                console.log("Device Count dsadsfdsfs" + devCount);
+                console.log("devicesssss" + id);
+
                 for (var i = 0; i !== devices.length; ++i) {
                     var device = devices[i];
+                  //  $("#room-name-number").html("You are in Room: " + (devices.kind));
+
                     var option = document.createElement('option');
                     option.value = device.deviceId;
                     if (device.kind === 'audioinput') {
@@ -71,7 +77,7 @@
                         videoSelect.appendChild(option);
                     } else {
                         console.log('Some other kind of source/device: ', device);
-                    }
+                  }
                 }
             });
         }
@@ -80,7 +86,8 @@
         subscribeMouseClickEvents();
         subscribeMouseHoverEvents();
         subscribeWindowResizeEvent();
-        $("#room-name-meeting").html("You are in Room: " + (channel));
+       $("#room-name-meeting").html("You are in Room: " + (channel));
+
         attachExitFullscreenEvent();
 
         // Initialize and display stream end
@@ -327,7 +334,7 @@
                     String(a).replace(/[-_]/g, function(m0) {
                         return m0 == '-' ? '+' : '/'
                     })
-                        .replace(/[^A-Za-z0-9\+\/]/g, '')
+                    .replace(/[^A-Za-z0-9\+\/]/g, '')
                 );
             };
             var noConflict = function() {
@@ -471,38 +478,37 @@
             }
         }
 
-        /*   function toggleFullscreenButton(show, parent) {
-               if (parent) {
-                   $(parent + " .fullscreen-button").parent().toggle(show);
-                   $(parent + " .fullscreen-button, " + parent + " .fullscreen-button>img").toggle(show);
-               } else {
-                   $("#video-container .fullscreen-button").parent().toggle(show);
-                   $("#video-container .fullscreen-button, #video-container .fullscreen-button>img").toggle(show);
-               }
-           }
-   */
+        function toggleFullscreenButton(show, parent) {
+            if (parent) {
+                $(parent + " .fullscreen-button").parent().toggle(show);
+                $(parent + " .fullscreen-button, " + parent + " .fullscreen-button>img").toggle(show);
+            } else {
+                $("#video-container .fullscreen-button").parent().toggle(show);
+                $("#video-container .fullscreen-button, #video-container .fullscreen-button>img").toggle(show);
+            }
+        }
         function toggleExpensionButton(show, parent) {
             if (parent) {
                 $(parent + " .expension-button").parent().toggle(show);
                 $(parent + " .expension-button, " + parent + " .expension-button>img").toggle(show);
             } else {
-                // var reference = $('.local-partner-video')
-                //     top = '0px',
-                //     right = '0px';
+                /* var reference = $('.local-partner-video')
+                     top = '0px'
+                     right = '0px';
 
-                // if(reference[0]){
-                //     var top = reference.css('top');
-                //     var right = reference.css('right');
-                // }
+                 if(reference[0]){
+                     var top = reference.css('top');
+                    var right = reference.css('right');
+                 } */
                 $("#video-container .expension-button")
-                    .parent()
-                    // .css({
-                    //     'position' : 'absolute',
-                    //     'top' : top,
-                    //     'right' : right,
-                    //     'zIndex': 10
-                    // })
-                    .toggle(show);
+                   /* .parent()
+                     .css({
+                        'position' : 'absolute',
+                         'top' : top,
+                        'right' : right,
+                         'zIndex': 10
+                     })
+                    .toggle(show); */
                 $("#video-container .expension-button, #video-container .expension-button>img").toggle(show);
             }
         }
@@ -707,11 +713,22 @@
             });
 
             client.on('peer-leave', function(evt) {
-                console.log("Peer has left: " + evt.uid);
+                $.alert("Peer has left: " + evt.uid);
                 console.log("Timestamp: " + Date.now());
                 console.log(evt);
                 showStreamOnPeerLeave(evt.uid);
                 //updateRoomInfo();
+            });
+
+            console.log("HRERE I AM !");
+            getStats(function(stats){
+                console.log("THEESE ARE THE STATS " + stats);
+            });
+
+            client.on('mute-audio', function(evt) {
+                var uid = evt.uid;
+               // console.log("mute audio:" + uid);
+                alert("Peer:" + uid + "is mute");
             });
 
             client.on('stream-subscribed', function(evt) {
@@ -882,14 +899,14 @@
             }, function(e) {
                 if (disableAudio) {
                     $(e.target).attr("src", "images/btn_mute_touch.png");
-                    /*
-                                        $.alert("Mic is disabled");
-                    */
+/*
+                    $.alert("Mic is disabled");
+*/
                 } else {
                     $(e.target).attr("src", "images/btn_mute@2x.png");
-                    /*
-                                        $.alert("Mic is enabled");
-                    */
+/*
+                    $.alert("Mic is enabled");
+*/
                 }
             });
 
@@ -966,11 +983,11 @@
                 }, 5000);
             });
 
-            $(".toolbar img").off("hover").hover(function(e) {
-                $(this).filter(':not(:animated)').animate({ width: "70px", height: "70px" });
-            }, function() {
-                $(this).animate({ width: "50px", height: "50px" });
-            });
+             $(".toolbar img").off("hover").hover(function(e) {
+                 $(this).filter(':not(:animated)').animate({ width: "70px", height: "70px" });
+             }, function() {
+                 $(this).animate({ width: "50px", height: "50px" });
+             });
         }
 
         function subscribeMouseClickEvents() {
@@ -1067,10 +1084,15 @@
                 // workaround to remove bottom bar
                 $("div[id^='bar_']").remove();
             });
-
+/*
             $(".end-call-button,.list-hang-up-btn").click(function(e) {
                 client.leave();
                 window.location.href = "index.html";
+            });*/
+            $(".end-call-button").off("hover").hover(function(e) {
+                $(e.target).attr("src", "images/btn_endcall_touchpush@2x.png");
+            }, function(e) {
+                $(e.target).attr("src", "images/btn_endcall@2x.png");
             });
 
             $(".list-close-btn").click(function(e) {
