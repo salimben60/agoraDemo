@@ -486,22 +486,22 @@
                 $(parent + " .expension-button").parent().toggle(show);
                 $(parent + " .expension-button, " + parent + " .expension-button>img").toggle(show);
             } else {
-                // var reference = $('.local-partner-video')
-                //     top = '0px',
-                //     right = '0px';
+                /* var reference = $('.local-partner-video')
+                     top = '0px',
+                     right = '0px';
 
-                // if(reference[0]){
-                //     var top = reference.css('top');
-                //     var right = reference.css('right');
-                // }
+                 if(reference[0]){
+                     var top = reference.css('top');
+                    var right = reference.css('right');
+                } */
                 $("#video-container .expension-button")
                     .parent()
-                    // .css({
-                    //     'position' : 'absolute',
-                    //     'top' : top,
-                    //     'right' : right,
-                    //     'zIndex': 10
-                    // })
+                    /* .css({
+                         'position' : 'absolute',
+                         'top' : top,
+                         'right' : right,
+                         'zIndex': 10
+                     }) */
                     .toggle(show);
                 $("#video-container .expension-button, #video-container .expension-button>img").toggle(show);
             }
