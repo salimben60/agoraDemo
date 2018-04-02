@@ -30,8 +30,8 @@
         </header>
         <section id="main" class="animated zoomIn">
             <main id="main-content">
-                <p class="enter-prompt">Enter a conference room name</p>
-                <p class="main-description-text">If you are the first person to specify this name, the room will be created and you will be placed in it. If it has already been created you will join the conference in progress.</p>
+                <p class="enter-prompt ">Enter a conference room name</p>
+                <p class="main-description-text" style="display: none">If you are the first person to specify this name, the room will be created and you will be placed in it. If it has already been created you will join the conference in progress.</p>
                 <div id="form-content">
                     <form action="meeting.html" method="GET">
                         <div class="form-group row">
@@ -41,8 +41,11 @@
                             <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5"><button class="button btn-warning join-button button" id="join-meeting"><span class="fa fa-sign-in test">&nbsp;&nbsp;Join</span></button></div>
                         </div>
                         <hr>
+                       <!-- <div class="form-group row">
+                            <button type="button" class="btn btn-secondary btn-lg btn-lg">Block level button</button>
+                        </div>-->
                         <div class="form-group row">
-                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5"><button id="options-button" type="button" class="btn btn-default" data-toggle="modal" data-target="#videoOptionsModal"><span class="fa fa-gear">&nbsp; Video Options</span></button></div>
+                            <div class="col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-5 col-xlg-2 col-xlg-offset-5"><button id="options-button" type="button" class="btn btn-default" data-toggle="modal" data-target="#videoOptionsModal"><span class="fa fa-gear">&nbsp; Video Options</span></button></div>
                         </div>
                     </form>
                 </div>

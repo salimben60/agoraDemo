@@ -1,4 +1,4 @@
-body {background-color: #3c763d}
+body {background-color: deeppink}
 
 #wrapper{
     background-color: #2e6da4;
@@ -9,6 +9,11 @@ header{
     display: block;
 }
 
+.test2{
+    vertical-align: middle;
+
+}
+
 .mor{
     font-size: 27px;
     color:orange;
@@ -17,11 +22,7 @@ header{
     border-radius: 6px;
     border: 2px solid #00b6ed;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACACAYAAAGjG8GUAAAABGdBT…p5CLOP9HzUlYeyeXhUMhf15wEuNzmRck/BjQ+jURrAVzr3/4yteQ6QFQaPAAAAAElFTkSuQmCC) 50% no-repeat;
-    height: 100%;
-    /*
     width: 100%;
-    */
-
 }
 
 #video-container
@@ -31,7 +32,6 @@ header{
     position: relative;
     background-color: black;
     overflow: hidden;
-
 }
 
 #footer {
@@ -47,7 +47,6 @@ header{
 }
 
 .room-name-title{
-    background-color: #3c763d;
     border-radius: 6px;
     border: 2px solid #00b6ed;
     font-size: 26px;
@@ -73,6 +72,19 @@ header{
 .test{
     color:yellow;
     font-size: 27px;
+}
+
+.toolbar{
+    background-color: #2e6da4;
+    border-radius: 6px;
+    border: 2px solid #00b6ed;
+    padding: 2px;
+    height: 90px;
+    vertical-align: middle;
+}
+
+.toolbarKids{
+    padding-top: 1em;
 }
 
 
